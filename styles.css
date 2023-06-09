@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    transition: all 0.5s ease-in-out;
+    font-family: "Saira", sans-serif;
+    color: rgb(53, 52, 56);
+    font-weight: 200;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.box {
+    padding: 10px;
+}
+
+.small-box {
+    min-height: 150px;
+    min-width: 250px;
+    flex-grow: 1;
+    background-color: rgb(204, 197, 214);
+}
+
+.long-box {
+    min-height: 150px;
+    min-width: 500px;
+    flex-grow: 4;
+    background-color: rgb(126, 122, 133);
+}
+
+.large-box {
+    min-height: 500px;
+    min-width: 410px;
+    flex-grow: 2;
+    background-color: rgb(90, 87, 94);
+}
+
+.pill {
+    height: 100%;
+    width: 100%;
+    border: solid rgb(53, 52, 56);
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
