@@ -408,6 +408,24 @@ a {
         margin-top: 2rem;
     }
 
+    #main_img {
+        height: 95%;
+        width: 95%;
+        transform: translateX(0px);
+    }
+
+    .main_content h1 {
+        font-size: 3.5rem;
+    }
+
+    .main_content h2 {
+        font-size: 2rem;
+    }
+
+    .main_content p {
+        font-size: 1rem;
+    }
+
 }
 
 /* About Me Section  */
@@ -497,6 +515,24 @@ a {
         margin: 0 50px;
         padding-top: 0px;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    #about_me {
+        padding-top: 650px;
+        padding-bottom: 600px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    #about_me {
+        padding-top: 800px;
+        padding-bottom: 600px;
+    }
+    
 }
 
 /* Projects Section CSS  */
@@ -604,6 +640,11 @@ a {
 
     .project_card {
         width: 300px;
+    }
+
+    .project_card button {
+        font-size: 0.5rem;
+        top: 465px;
     }
 }
 
